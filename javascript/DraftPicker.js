@@ -1,16 +1,4 @@
 var characters = [
-  /*
-  //Acheron
-  {
-    folder: "5 Stars",
-    image: "Character_Acheron_Icon.webp",
-    element: "Lightning",
-    path: "Nihility",
-    gender: "Female",
-    range: "Melee",
-  },
-  */
-  //Arlan
   {
     folder: "4 Stars",
     image: "Character_Arlan_Icon.webp",
@@ -19,7 +7,7 @@ var characters = [
     gender: "Male",
     range: "Melee",
   },
-  //Argenti
+
   {
     folder: "5 Stars",
     image: "Character_Argenti_Icon.webp",
@@ -28,7 +16,7 @@ var characters = [
     gender: "Male",
     range: "Melee",
   },
-  //Asta
+
   {
     folder: "4 Stars",
     image: "Character_Asta_Icon.webp",
@@ -37,18 +25,7 @@ var characters = [
     gender: "Female",
     range: "Ranged",
   },
-  /*
-  //Aventurine
-  {
-    folder: "5 Stars",
-    image: "Character_Aventurine_Icon.webp",
-    element: "Imaginary",
-    path: "Preservation",
-    gender: "Male",
-    range: "Ranged",
-  },
-  */
-  //Bailu
+
   {
     folder: "5 Stars",
     image: "Character_Bailu_Icon.webp",
@@ -57,7 +34,7 @@ var characters = [
     gender: "Female",
     range: "Melee",
   },
-  //Black Swan
+
   {
     folder: "5 Stars",
     image: "Character_Black_Swan_Icon.webp",
@@ -66,7 +43,7 @@ var characters = [
     gender: "Female",
     range: "Ranged",
   },
-  //Blade
+
   {
     folder: "5 Stars",
     image: "Character_Blade_Icon.webp",
@@ -75,7 +52,7 @@ var characters = [
     gender: "Male",
     range: "Melee",
   },
-  //Bronya
+
   {
     folder: "5 Stars",
     image: "Character_Bronya_Icon.webp",
@@ -84,7 +61,7 @@ var characters = [
     gender: "Female",
     range: "Ranged",
   },
-  //Clara
+
   {
     folder: "5 Stars",
     image: "Character_Clara_Icon.webp",
@@ -93,7 +70,7 @@ var characters = [
     gender: "Female",
     range: "Ranged",
   },
-  //Dan Heng
+
   {
     folder: "4 Stars",
     image: "Character_Dan_Heng_Icon.webp",
@@ -102,7 +79,7 @@ var characters = [
     gender: "Male",
     range: "Melee",
   },
-  //Dan Heng Imbibitor Lunae
+
   {
     folder: "5 Stars",
     image: "Character_Dan_Heng_Imbibitor_Lunae_Icon.webp",
@@ -111,16 +88,16 @@ var characters = [
     gender: "Male",
     range: "Ranged",
   },
-  //Dr Ratio
+
   {
     folder: "5 Stars",
     image: "Character_Dr._Ratio_Icon.webp",
     element: "Imaginary",
     path: "Hunt",
     gender: "Male",
-    range: "Melee", //He smacks with book
+    range: "Melee",
   },
-  //Fu Xuan
+
   {
     folder: "5 Stars",
     image: "Character_Fu_Xuan_Icon.webp",
@@ -129,18 +106,7 @@ var characters = [
     gender: "Female",
     range: "Ranged",
   },
-  //Gallagher
-  /*
-  {
-    folder: "4 Stars",
-    image: "Character_Gallagher_Icon.webp",
-    element: "Fire",
-    path: "Harmony",
-    gender: "Male",
-    range: "Melee",
-  },
-  */
-  //Gepard
+
   {
     folder: "5 Stars",
     image: "Character_Gepard_Icon.webp",
@@ -149,7 +115,7 @@ var characters = [
     gender: "Male",
     range: "Melee",
   },
-  //Guinaifen
+
   {
     folder: "4 Stars",
     image: "Character_Guinaifen_Icon.webp",
@@ -158,7 +124,7 @@ var characters = [
     gender: "Female",
     range: "Melee",
   },
-  //Hanya
+
   {
     folder: "4 Stars",
     image: "Character_Hanya_Icon.webp",
@@ -167,7 +133,7 @@ var characters = [
     gender: "Female",
     range: "Ranged",
   },
-  //Herta
+
   {
     folder: "4 Stars",
     image: "Character_Herta_Icon.webp",
@@ -176,7 +142,7 @@ var characters = [
     gender: "Female",
     range: "Melee",
   },
-  //Himeko
+
   {
     folder: "5 Stars",
     image: "Character_Himeko_Icon.webp",
@@ -185,7 +151,7 @@ var characters = [
     gender: "Female",
     range: "Melee",
   },
-  //Hook
+
   {
     folder: "4 Stars",
     image: "Character_Hook_Icon.webp",
@@ -194,7 +160,7 @@ var characters = [
     gender: "Female",
     range: "Melee",
   },
-  //Huohuo
+
   {
     folder: "5 Stars",
     image: "Character_Huohuo_Icon.webp",
@@ -203,7 +169,7 @@ var characters = [
     gender: "Female",
     range: "Melee",
   },
-  //Jing Yuan
+
   {
     folder: "5 Stars",
     image: "Character_Jing_Yuan_Icon.webp",
@@ -212,7 +178,7 @@ var characters = [
     gender: "Male",
     range: "Melee",
   },
-  //Jingliu
+
   {
     folder: "5 Stars",
     image: "Character_Jingliu_Icon.webp",
@@ -221,7 +187,7 @@ var characters = [
     gender: "Female",
     range: "Melee",
   },
-  //Kafka
+
   {
     folder: "5 Stars",
     image: "Character_Kafka_Icon.webp",
@@ -230,7 +196,7 @@ var characters = [
     gender: "Female",
     range: "Melee",
   },
-  //Luka
+
   {
     folder: "4 Stars",
     image: "Character_Luka_Icon.webp",
@@ -239,7 +205,7 @@ var characters = [
     gender: "Male",
     range: "Melee",
   },
-  //Luka
+
   {
     folder: "5 Stars",
     image: "Character_Luocha_Icon.webp",
@@ -248,7 +214,7 @@ var characters = [
     gender: "Male",
     range: "Melee",
   },
-  //Lynx
+
   {
     folder: "4 Stars",
     image: "Character_Lynx_Icon.webp",
@@ -257,7 +223,7 @@ var characters = [
     gender: "Female",
     range: "Melee",
   },
-  //March 7th
+
   {
     folder: "4 Stars",
     image: "Character_March_7th_Icon.webp",
@@ -266,7 +232,7 @@ var characters = [
     gender: "Female",
     range: "Ranged",
   },
-  //Misha
+
   {
     folder: "4 Stars",
     image: "Character_Misha_Icon.webp",
@@ -275,7 +241,7 @@ var characters = [
     gender: "Male",
     range: "Melee",
   },
-  //Natasha
+
   {
     folder: "4 Stars",
     image: "Character_Natasha_Icon.webp",
@@ -284,7 +250,7 @@ var characters = [
     gender: "Female",
     range: "Ranged",
   },
-  //Pela
+
   {
     folder: "4 Stars",
     image: "Character_Pela_Icon.webp",
@@ -293,7 +259,7 @@ var characters = [
     gender: "Female",
     range: "Ranged",
   },
-  //Qingque
+
   {
     folder: "4 Stars",
     image: "Character_Qingque_Icon.webp",
@@ -302,7 +268,7 @@ var characters = [
     gender: "Female",
     range: "Ranged",
   },
-  //Ruan Mei
+
   {
     folder: "5 Stars",
     image: "Character_Ruan_Mei_Icon.webp",
@@ -311,7 +277,7 @@ var characters = [
     gender: "Female",
     range: "Ranged",
   },
-  //Sampo
+
   {
     folder: "4 Stars",
     image: "Character_Sampo_Icon.webp",
@@ -320,7 +286,7 @@ var characters = [
     gender: "Male",
     range: "Melee",
   },
-  //Seele
+
   {
     folder: "5 Stars",
     image: "Character_Seele_Icon.webp",
@@ -329,7 +295,7 @@ var characters = [
     gender: "Female",
     range: "Melee",
   },
-  //Serval
+
   {
     folder: "4 Stars",
     image: "Character_Serval_Icon.webp",
@@ -338,7 +304,7 @@ var characters = [
     gender: "Female",
     range: "Ranged",
   },
-  //Silver Wolf
+
   {
     folder: "5 Stars",
     image: "Character_Silver_Wolf_Icon.webp",
@@ -347,18 +313,7 @@ var characters = [
     gender: "Female",
     range: "Melee",
   },
-  /*
-  //Sparkle
-  {
-    folder: "5 Stars",
-    image: "Character_Sparkle_Icon.webp",
-    element: "Quantum",
-    path: "Harmony",
-    gender: "Female",
-    range: "Melee",
-  },
-  */
-  //Sushang
+
   {
     folder: "4 Stars",
     image: "Character_Sushang_Icon.webp",
@@ -367,7 +322,7 @@ var characters = [
     gender: "Female",
     range: "Melee",
   },
-  //Tingyun
+
   {
     folder: "4 Stars",
     image: "Character_Tingyun_Icon.webp",
@@ -376,7 +331,7 @@ var characters = [
     gender: "Female",
     range: "Melee",
   },
-  //Topaz and Numby
+
   {
     folder: "5 Stars",
     image: "Character_Topaz_and_Numby_Icon.webp",
@@ -385,7 +340,7 @@ var characters = [
     gender: "Female",
     range: "Ranged",
   },
-  //Trailblazer
+
   {
     folder: "5 Stars",
     image: "Character_Trailblazer_Icon.webp",
@@ -394,7 +349,7 @@ var characters = [
     gender: "Wild Card",
     range: "Wild Card",
   },
-  //Welt
+
   {
     folder: "5 Stars",
     image: "Character_Welt_Icon.webp",
@@ -403,7 +358,7 @@ var characters = [
     gender: "Male",
     range: "Ranged",
   },
-  //Xueyi
+
   {
     folder: "4 Stars",
     image: "Character_Xueyi_Icon.webp",
@@ -412,7 +367,7 @@ var characters = [
     gender: "Female",
     range: "Melee",
   },
-  //Yanqing
+
   {
     folder: "5 Stars",
     image: "Character_Yanqing_Icon.webp",
@@ -421,7 +376,7 @@ var characters = [
     gender: "Male",
     range: "Melee",
   },
-  //Yukong
+
   {
     folder: "4 Stars",
     image: "Character_Yukong_Icon.webp",
@@ -439,10 +394,9 @@ var charactersAdded = 0;
 
 document.addEventListener("DOMContentLoaded", function () {
   var pageTitle = document.createElement("h2");
-  pageTitle.textContent = "Disable Characters"; // Set the title text
+  pageTitle.textContent = "Disable Characters";
   document.body.appendChild(pageTitle);
 
-  // Select images for each elemental affinity
   var fireImage = document.querySelector(
     ".element_filters img[src='Elements/Fire.png']"
   );
@@ -465,7 +419,6 @@ document.addEventListener("DOMContentLoaded", function () {
     ".element_filters img[src='Elements/Wind.png']"
   );
 
-  // Add click event listeners to each image
   fireImage.addEventListener("click", function (event) {
     toggleFilter("Fire", event.target);
   });
@@ -597,11 +550,10 @@ document.addEventListener("DOMContentLoaded", function () {
     portraitDiv.classList.add("CharacterPortrait");
     var portraitImg = document.createElement("img");
 
-    // Remove "Character_" prefix and "_Icon" suffix from the image filename
     var imageName = character.image
       .replace("Character_", "")
       .replace("_Icon.webp", "");
-    // Replace underscores with spaces
+
     imageName = imageName.replace(/_/g, " ");
 
     portraitImg.src =
@@ -613,22 +565,21 @@ document.addEventListener("DOMContentLoaded", function () {
     var elementImg = document.createElement("img");
     elementImg.src = "Elements/" + character.element + ".png";
     elementImg.atl = character.element;
-    // Add the image source for the element image
+
     elementDiv.appendChild(elementImg);
 
     var pathDiv = document.createElement("div");
     pathDiv.classList.add("Path");
     var pathImg = document.createElement("img");
-    pathImg.src = "Paths/" + character.path + ".png"; // Provide the path to the path image
-    pathImg.alt = character.path; // Alt text for accessibility
+    pathImg.src = "Paths/" + character.path + ".png";
+    pathImg.alt = character.path;
     pathDiv.appendChild(pathImg);
     var nameDiv = document.createElement("div");
-    nameDiv.textContent = imageName; // Use the modified image name
+    nameDiv.textContent = imageName;
     nameDiv.classList.add("CharacterName");
 
     var genderDiv = document.createElement("div");
 
-    // Conditionally add class based on character's gender
     if (character.gender.trim() === "Female") {
       genderDiv.classList.add("Female");
     } else if (character.gender.trim() === "Male") {
@@ -661,17 +612,14 @@ document.addEventListener("DOMContentLoaded", function () {
     characterContainer.appendChild(rarityDiv);
 
     characterContainer.addEventListener("click", function () {
-      // Assuming `character` represents the corresponding character object
       var index = disabledPool.findIndex(function (item) {
-        return item.image === character.image; // Assuming `image` is a unique identifier for each character
+        return item.image === character.image;
       });
 
       if (index === -1) {
-        // Character not in disabledPool, add it
         disabledPool.push(character);
         this.classList.add("disabled");
       } else {
-        // Character already in disabledPool, remove it
         disabledPool.splice(index, 1);
         this.classList.remove("disabled");
       }
@@ -682,17 +630,9 @@ document.addEventListener("DOMContentLoaded", function () {
   document.body.appendChild(characterGrid);
 
   var draftButton = document.createElement("button");
-  draftButton.textContent = "Start The Draft Pick"; // Set the button text
-  draftButton.classList.add("draft-button"); // Add a class for styling
+  draftButton.textContent = "Start The Draft Pick";
+  draftButton.classList.add("draft-button");
   document.body.appendChild(draftButton);
-
-  //
-  //
-  //
-  //
-  //
-  //
-  // Event listener for the "Start The Draft" button
 
   var draftGrid = document.createElement("div");
   draftGrid.classList.add("draft-grid");
@@ -712,18 +652,15 @@ document.addEventListener("DOMContentLoaded", function () {
       filtersSegment.parentNode.removeChild(filtersSegment);
     }
 
-    // Insert the new h2 element before the draft grid
     var draftGrid = document.querySelector(".draft-grid");
     if (draftGrid) {
       draftGrid.parentNode.insertBefore(newH2, draftGrid);
     }
 
     this.parentNode.removeChild(this);
-    // Clear any existing character portraits in the draft grid
+
     draftGrid.innerHTML = "";
     characterGrid.innerHTML = "";
-
-    // Shuffle the characters array to randomize the selection
 
     var pool = makePool();
     BeginDraft(pool, draftGrid);
@@ -732,7 +669,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
 function makePool() {
   return characters.filter(function (character) {
-    // Return characters that are not in the disabled pool
     return !disabledPool.includes(character);
   });
 }
@@ -740,11 +676,10 @@ function makePool() {
 function BeginDraft(pool, draftGrid) {
   var shuffledCharacters = pool.sort(() => Math.random() - 0.5);
 
-  // Select the first three characters for the draft
   var initialCharacters = shuffledCharacters.slice(0, 3);
 
   createTable();
-  // Populate the draft grid with the initial character portraits
+
   initialCharacters.forEach(function (character) {
     var characterContainer = document.createElement("button");
     characterContainer.classList.add("DraftCard");
@@ -769,7 +704,6 @@ function BeginDraft(pool, draftGrid) {
     });
 
     portraitDiv.addEventListener("mouseleave", function () {
-      // Reset the background color on mouse leave
       if (character.folder === "4 Stars") {
         portraitImg.style.background =
           "linear-gradient(to bottom, #404066, #9864cd)";
@@ -787,29 +721,24 @@ function BeginDraft(pool, draftGrid) {
         portraitImg.style.background =
           "linear-gradient(to bottom, #915b52, #c6a470)";
       }
-      // Remove character from pool
+
       var index = pool.indexOf(character);
       if (index !== -1) {
         pool.splice(index, 1);
       }
       displaySelectedCharacter(portraitImg, character);
-      // Refresh draft grid with updated pool
+
       refreshDraftGrid(pool, draftGrid);
     };
 
-    // Append the portrait to the character container
     characterContainer.appendChild(portraitDiv);
 
-    // Append the character container to the draft grid
     draftGrid.appendChild(characterContainer);
   });
 }
 
 function refreshDraftGrid(pool, draftGrid) {
-  // Clear existing draft grid
   draftGrid.innerHTML = "";
-
-  // Select three random characters from the updated pool
 
   var randomCharacters = selectRandomCharacters(pool, 3);
 
@@ -823,13 +752,10 @@ function refreshDraftGrid(pool, draftGrid) {
     draftGrid.style.width = `200px`;
   }
 
-  // Populate draft grid with the selected random characters
   randomCharacters.forEach(function (character) {
-    // Create character container
     var characterContainer = document.createElement("button");
     characterContainer.classList.add("DraftCard");
 
-    // Create portrait element
     var portraitDiv = document.createElement("div");
     portraitDiv.classList.add("DraftPortrait");
     var portraitImg = document.createElement("img");
@@ -837,7 +763,6 @@ function refreshDraftGrid(pool, draftGrid) {
       "Character Icons/" + character.folder + "/" + character.image;
     portraitDiv.appendChild(portraitImg);
 
-    // Set background color based on star rating
     if (character.folder === "4 Stars") {
       portraitImg.style.background =
         "linear-gradient(to bottom, #404066, #9864cd)";
@@ -846,13 +771,11 @@ function refreshDraftGrid(pool, draftGrid) {
         "linear-gradient(to bottom, #915b52, #c6a470)";
     }
 
-    // Add mouse enter and leave event listeners
     portraitDiv.addEventListener("mouseenter", function () {
       portraitImg.style.background = "#cad4ff";
     });
 
     portraitDiv.addEventListener("mouseleave", function () {
-      // Reset the background color on mouse leave
       if (character.folder === "4 Stars") {
         portraitImg.style.background =
           "linear-gradient(to bottom, #404066, #9864cd)";
@@ -862,7 +785,6 @@ function refreshDraftGrid(pool, draftGrid) {
       }
     });
 
-    // Add onclick event to remove character from pool and refresh draft grid
     characterContainer.onclick = function () {
       if (character.folder === "4 Stars") {
         portraitImg.style.background =
@@ -871,50 +793,42 @@ function refreshDraftGrid(pool, draftGrid) {
         portraitImg.style.background =
           "linear-gradient(to bottom, #915b52, #c6a470)";
       }
-      // Remove character from pool
+
       var index = pool.indexOf(character);
       if (index !== -1) {
         pool.splice(index, 1);
       }
       displaySelectedCharacter(portraitImg, character);
-      // Refresh draft grid with updated pool
+
       if (charactersAdded !== 12) {
         refreshDraftGrid(pool, draftGrid);
       } else {
-        // If 12 characters are selected, remove the draft grid
         draftGrid.remove();
       }
     };
 
-    // Append portrait to character container
     characterContainer.appendChild(portraitDiv);
 
-    // Append character container to draft grid
     draftGrid.appendChild(characterContainer);
   });
 }
 
 function selectRandomCharacters(pool, count) {
-  // Shuffle the pool array
   var shuffledPool = pool.sort(() => Math.random() - 0.5);
-  // Select the first 'count' characters from the shuffled pool
+
   var selectedCharacters = shuffledPool.slice(0, count);
   return selectedCharacters;
 }
 
 function displaySelectedCharacter(portraitImgElement, character) {
-  // Get the table body element where selected characters will be displayed
   var tableBody = document.getElementById("selectedCharactersTableBody");
 
-  // Check if the current row is full (4 characters per row) or if the maximum limit of 12 characters is reached
   var currentRow = tableBody.rows[tableBody.rows.length - 1];
   if (!currentRow || currentRow.cells.length >= 4 || charactersAdded >= 12) {
-    // Create a new row if the current row is full, doesn't exist, or the limit is reached
     currentRow = tableBody.insertRow();
   }
 
   if (charactersAdded < 12) {
-    // Create a new table cell for the character portrait image
     var newCell = currentRow.insertCell();
 
     if (character.folder === "4 Stars") {
@@ -923,10 +837,9 @@ function displaySelectedCharacter(portraitImgElement, character) {
       newCell.style.background = "linear-gradient(to bottom, #915b52, #c6a470)";
     }
 
-    // Append the character portrait image to the table cell
     newCell.appendChild(portraitImgElement);
 
-    charactersAdded++; // Increment the count of characters added
+    charactersAdded++;
   }
 }
 
@@ -935,202 +848,169 @@ function createTable() {
   var tableBody = document.createElement("tbody");
   table.appendChild(tableBody);
 
-  // Set ID for table body
   tableBody.id = "selectedCharactersTableBody";
 
-  // Append the table below the draft grid
   var draftGrid = document.querySelector(".draft-grid");
   draftGrid.insertAdjacentElement("afterend", table);
 }
 
-// Function to toggle the filter based on the selected element
 function toggleFilter(element, clickedImage) {
-  // Check if the clicked filter is already active
   var isActive = clickedImage.classList.contains("active");
 
-  // Get all filter images
   var allFilters = document.querySelectorAll(".element_filters img");
 
-  // If the clicked filter is already active, reset filters and display all characters
   if (isActive) {
     allFilters.forEach(function (filter) {
       filter.classList.remove("active");
     });
     var characterCards = document.querySelectorAll(".CharacterCard");
     characterCards.forEach(function (card) {
-      card.style.display = ""; // Show the card
+      card.style.display = "";
     });
   } else {
-    // Reset all filters to inactive
     allFilters.forEach(function (filter) {
       filter.classList.remove("active");
     });
-    // Activate the clicked filter
+
     clickedImage.classList.add("active");
 
-    // Get all character cards
     var characterCards = document.querySelectorAll(".CharacterCard");
 
-    // Show characters with the selected element
     characterCards.forEach(function (card) {
       if (
         card.querySelector(".Element img[src='Elements/" + element + ".png']")
       ) {
-        card.style.display = ""; // Show the card
+        card.style.display = "";
       } else {
-        card.style.display = "none"; // Hide the card
+        card.style.display = "none";
       }
     });
   }
 }
 
 function togglePathFilter(element, clickedImage) {
-  // Check if the clicked filter is already active
   var isActive = clickedImage.classList.contains("active");
 
-  // Get all filter images
   var allFilters = document.querySelectorAll(".element_filters img");
 
-  // If the clicked filter is already active, reset filters and display all characters
   if (isActive) {
     allFilters.forEach(function (filter) {
       filter.classList.remove("active");
     });
     var characterCards = document.querySelectorAll(".CharacterCard");
     characterCards.forEach(function (card) {
-      card.style.display = ""; // Show the card
+      card.style.display = "";
     });
   } else {
-    // Reset all filters to inactive
     allFilters.forEach(function (filter) {
       filter.classList.remove("active");
     });
-    // Activate the clicked filter
+
     clickedImage.classList.add("active");
 
-    // Get all character cards
     var characterCards = document.querySelectorAll(".CharacterCard");
 
-    // Show characters with the selected element
     characterCards.forEach(function (card) {
       if (card.querySelector(".Path img[src='Paths/" + element + ".png']")) {
-        card.style.display = ""; // Show the card
+        card.style.display = "";
       } else {
-        card.style.display = "none"; // Hide the card
+        card.style.display = "none";
       }
     });
   }
 }
 
 function toggleGenderFilter(element, clickedImage) {
-  // Check if the clicked filter is already active
   var isActive = clickedImage.classList.contains("active");
 
-  // Get all filter images
   var allFilters = document.querySelectorAll(".element_filters img");
 
-  // If the clicked filter is already active, reset filters and display all characters
   if (isActive) {
     allFilters.forEach(function (filter) {
       filter.classList.remove("active");
     });
     var characterCards = document.querySelectorAll(".CharacterCard");
     characterCards.forEach(function (card) {
-      card.style.display = ""; // Show the card
+      card.style.display = "";
     });
   } else {
-    // Reset all filters to inactive
     allFilters.forEach(function (filter) {
       filter.classList.remove("active");
     });
-    // Activate the clicked filter
+
     clickedImage.classList.add("active");
 
-    // Get all character cards
     var characterCards = document.querySelectorAll(".CharacterCard");
 
-    // Show characters with the selected element
     characterCards.forEach(function (card) {
       if (card.querySelector("." + element)) {
-        card.style.display = ""; // Show the card
+        card.style.display = "";
       } else {
-        card.style.display = "none"; // Hide the card
+        card.style.display = "none";
       }
     });
   }
 }
 
 function toggleRangeFilter(element, clickedImage) {
-  // Check if the clicked filter is already active
   var isActive = clickedImage.classList.contains("active");
 
-  // Get all filter images
   var allFilters = document.querySelectorAll(".element_filters img");
 
-  // If the clicked filter is already active, reset filters and display all characters
   if (isActive) {
     allFilters.forEach(function (filter) {
       filter.classList.remove("active");
     });
     var characterCards = document.querySelectorAll(".CharacterCard");
     characterCards.forEach(function (card) {
-      card.style.display = ""; // Show the card
+      card.style.display = "";
     });
   } else {
-    // Reset all filters to inactive
     allFilters.forEach(function (filter) {
       filter.classList.remove("active");
     });
-    // Activate the clicked filter
+
     clickedImage.classList.add("active");
 
-    // Get all character cards
     var characterCards = document.querySelectorAll(".CharacterCard");
 
-    // Show characters with the selected element
     characterCards.forEach(function (card) {
       if (card.querySelector("." + element)) {
-        card.style.display = ""; // Show the card
+        card.style.display = "";
       } else {
-        card.style.display = "none"; // Hide the card
+        card.style.display = "none";
       }
     });
   }
 }
 
 function toggleRarityFilter(element, clickedImage) {
-  // Check if the clicked filter is already active
   var isActive = clickedImage.classList.contains("active");
 
-  // Get all filter images
   var allFilters = document.querySelectorAll(".element_filters img");
 
-  // If the clicked filter is already active, reset filters and display all characters
   if (isActive) {
     allFilters.forEach(function (filter) {
       filter.classList.remove("active");
     });
     var characterCards = document.querySelectorAll(".CharacterCard");
     characterCards.forEach(function (card) {
-      card.style.display = ""; // Show the card
+      card.style.display = "";
     });
   } else {
-    // Reset all filters to inactive
     allFilters.forEach(function (filter) {
       filter.classList.remove("active");
     });
-    // Activate the clicked filter
+
     clickedImage.classList.add("active");
 
-    // Get all character cards
     var characterCards = document.querySelectorAll(".CharacterCard");
 
-    // Show characters with the selected element
     characterCards.forEach(function (card) {
       if (card.querySelector("." + element)) {
-        card.style.display = ""; // Show the card
+        card.style.display = "";
       } else {
-        card.style.display = "none"; // Hide the card
+        card.style.display = "none";
       }
     });
   }
