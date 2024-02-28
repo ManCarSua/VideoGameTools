@@ -1,0 +1,278 @@
+/* CSS styles for the table */
+
+body {
+  background-color: #301f57;
+  color: #cad4ff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.filters {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.element_filters {
+  display: flex;
+  gap: 4px;
+}
+
+.element_filters img {
+  height: 40px;
+  border-radius: 10%;
+  border: solid 4px #0e0e0e;
+  background-color: #00000050;
+}
+
+.mainButtons {
+  padding: 30px;
+  gap: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div {
+  display: block;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+.character-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  grid-gap: 5px;
+  margin: 0 auto; /* Center the grid horizontally */
+  width: 80%; /* Adjust width as needed */
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(112px, 1fr)
+  ); /* Adjust column width as needed */
+  grid-gap: 10px; /* Adjust the gap between grid items */
+}
+
+.CharacterCard {
+  max-width: 112px;
+  background-color: #0e0e0e;
+  text-align: center;
+  margin: 0; /* Remove any default margin */
+  padding: 0; /* Remove any default padding */
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border-radius: 10%;
+  border: none; /* Remove default button border */
+  padding: 3px;
+  margin: 2px;
+}
+
+.CharacterCard.disabled {
+  opacity: 0.35;
+}
+
+.CharacterCard:hover {
+  background-color: rgb(115, 115, 115);
+}
+
+.CharacterPortrait img {
+  width: 100%; /* Adjust image width as needed */
+  height: auto;
+  border-radius: 10%; /* Make images circular */
+  border-bottom-right-radius: 20%;
+  border-bottom-left-radius: 20%;
+  margin: 0px;
+}
+
+.Path img {
+  position: absolute;
+  left: 5%;
+  top: 5%;
+  height: 25%;
+}
+
+.Element img {
+  position: absolute;
+  right: 5%;
+  top: 5%;
+  height: 25%;
+}
+
+.CharacterName {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  background-color: transparent;
+  color: #cad4ff;
+  width: 60%; /* Example width */
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0px;
+  padding: 5px 2px;
+  border-radius: 10%; /* Make images circular */
+}
+
+.draft-button {
+  display: block;
+  justify-content: center;
+  margin: auto;
+  margin-top: 20px;
+  font-size: 1.5em;
+  border-radius: 20px;
+  border: none;
+  background-color: #cad4ff;
+  color: #301f57;
+  padding: 20px;
+}
+
+.draft-button:hover {
+  color: #cad4ff;
+  background-color: #744bd3;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+.guest-setup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.host-setup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.input-field {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 20px;
+  margin-right: 20px;
+  font-size: 1.5em;
+  border: none;
+  background-color: #effeff;
+  color: #301f57;
+  padding: 20px;
+}
+
+.draft-grid {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto; /* Center the grid horizontally */
+  height: auto;
+  width: auto; /* Adjust width as needed */
+}
+
+.DraftCard {
+  text-align: center;
+  width: 200px; /* Adjust width as needed */
+  background-color: transparent;
+  text-align: center;
+  margin: 0; /* Remove any default margin */
+  padding: 0; /* Remove any default padding */
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10%;
+  border: none; /* Remove default button border */
+  padding: 3px;
+  margin: 2px;
+}
+
+.DraftPortrait img {
+  max-width: 200px; /* Adjust image width as needed */
+  height: auto;
+  border-radius: 10%; /* Make images circular */
+  margin: 0px;
+  border: solid 5px #18011f;
+}
+
+table {
+  margin: 15px auto; /* Set left and right margins to auto */
+  font-size: 0;
+}
+td {
+  border: solid 5px #18011f;
+  border-radius: 15%;
+}
+td img {
+  max-width: 100%; /* Ensures the image doesn't exceed the width of its container */
+  max-height: 100%; /* Ensures the image doesn't exceed the height of its container */
+  display: block; /* Ensures the image behaves as a block-level element */
+  border-radius: 18px; /* Adjust the value to match the border radius of the container */
+}
+
+.active {
+  opacity: 0.5; /* Adjust the opacity value as needed */
+}
+
+.opacity-zero {
+  opacity: 0.8;
+}
+
+/*
+
+FOR PHONE MOMENTS
+
+*/
+/* Media query for smaller screens (e.g., phones) */
+@media screen and (max-width: 768px) {
+  .draft-grid {
+    grid-template-columns: repeat(
+      auto-fill,
+      minmax(100px, 1fr)
+    ); /* Adjust column width for smaller screens */
+    width: 90%; /* Adjust width as needed */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .DraftCard {
+    max-width: 100px; /* Adjust width as needed */
+    background-color: transparent;
+    text-align: center;
+    margin: 0; /* Remove any default margin */
+    padding: 0; /* Remove any default padding */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10%;
+    border: none; /* Remove default button border */
+    padding: 3px;
+    margin: 2px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .DraftPortrait img {
+    width: 100px; /* Adjust image width as needed */
+    height: auto;
+    border-radius: 10%; /* Make images circular */
+    margin: 0px;
+    border: solid 5px #18011f;
+  }
+}
