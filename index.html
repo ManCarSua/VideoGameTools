@@ -77,7 +77,7 @@
         color: #fff;
       }
     </style>
-     <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+    <script src="https://storage.ko-fi.com/cdn/scripts/overlay-widget.js"></script>
   </head>
   <body>
     <div class="container">
@@ -85,6 +85,7 @@
         Howdy, here I just wanted to leave some<br />
         game modes for the HSR community
       </h1>
+      <p>Click any button below to start</p>
       <div class="button-row">
         <button class="hsrDraft" onclick="openDraftPicker()">
           <span class="button-text">HSR Draft Picker</span>
@@ -105,8 +106,6 @@
       function openCoopDraftPicker() {
         window.location.href = "CoopDraftPicker.html";
       }
-    </script>
-   <script>
       kofiWidgetOverlay.draw("mancarsua", {
         type: "floating-chat",
         "floating-chat.donateButton.text": "Support me",
