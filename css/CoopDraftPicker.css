@@ -246,9 +246,7 @@ FOR PHONE MOMENTS
     ); /* Adjust column width for smaller screens */
     width: 90%; /* Adjust width as needed */
   }
-}
 
-@media screen and (max-width: 768px) {
   .DraftCard {
     max-width: 100px; /* Adjust width as needed */
     background-color: transparent;
@@ -265,14 +263,89 @@ FOR PHONE MOMENTS
     padding: 3px;
     margin: 2px;
   }
-}
 
-@media screen and (max-width: 768px) {
   .DraftPortrait img {
     width: 100px; /* Adjust image width as needed */
     height: auto;
     border-radius: 10%; /* Make images circular */
     margin: 0px;
     border: solid 5px #18011f;
+  }
+
+  .character-grid {
+    grid-template-columns: repeat(
+      auto-fill,
+      minmax(75px, 1fr)
+    ); /* Adjust column width for smaller screens */
+    width: 95%; /* Adjust width as needed */
+  }
+  .CharacterCard {
+    max-width: 75px;
+    background-color: #0e0e0e;
+    text-align: center;
+    margin: 0; /* Remove any default margin */
+    padding: 0; /* Remove any default padding */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-radius: 10%;
+    border: none; /* Remove default button border */
+    padding: 3px;
+    margin: 2px;
+  }
+
+  .Path img {
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    height: 25%;
+  }
+
+  .Element img {
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    height: 25%;
+  }
+
+  .draft-button {
+    display: block;
+    justify-content: center;
+    margin: auto;
+    margin-top: 5px;
+    font-size: 0.5em;
+    border-radius: 20px;
+    border: none;
+    background-color: #cad4ff;
+    color: #301f57;
+    padding: 5px;
+  }
+
+  .draft-button:hover {
+    color: #cad4ff;
+    background-color: #744bd3;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 5px;
+  }
+  .input-field {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-right: 20px;
+    font-size: 0.5em;
+    border: none;
+    background-color: #effeff;
+    color: #301f57;
+    padding: 5px;
   }
 }
