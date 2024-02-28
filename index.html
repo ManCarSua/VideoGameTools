@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Start Screen</title>
+    <style>
+      html {
+        background-color: #301f57;
+        color: #cad4ff;
+      }
+      h1 {
+        text-align: center;
+      }
+      p {
+        text-align: center;
+      }
+      button {
+        font-size: 30px;
+        font-weight: bold;
+        width: 35%;
+        height: 180px;
+        background-color: #000000;
+        color: #ffffff;
+      }
+      button:hover {
+        opacity: 0.9;
+      }
+      .button-row {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px 0;
+        gap: 20px;
+      }
+
+      .hsrDraft {
+        position: relative;
+      }
+
+      .hsrDraft:before {
+        content: " ";
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0.6;
+        background-image: url("Button Art/First_Closed_Beta_Wallpaper.webp");
+        background-repeat: no-repeat;
+        background-position: 50% 0;
+        background-size: cover;
+      }
+
+      .hsrCo-opDraft {
+        position: relative;
+      }
+
+      .hsrCo-opDraft:before {
+        content: " ";
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0.6;
+        background-image: url("Button Art/Version_1.4_Wallpaper.webp");
+        background-repeat: no-repeat;
+        background-position: 50% 0;
+        background-size: cover;
+      }
+
+      .button-text {
+        position: relative;
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>
+        Howdy, here I just wanted to leave some<br />
+        game modes for the HSR community
+      </h1>
+      <p>Click any button below to start</p>
+      <div class="button-row">
+        <button class="hsrDraft" onclick="openDraftPicker()">
+          <span class="button-text">HSR Draft Picker</span>
+        </button>
+        <button class="hsrCo-opDraft" onclick="openCoopDraftPicker()">
+          <span class="button-text">HSR Co-op Draft Picker</span>
+        </button>
+      </div>
+      <div class="button-row">
+        <button>Coming Soon</button>
+        <button>Coming Soon</button>
+      </div>
+    </div>
+    <script>
+      function openDraftPicker() {
+        window.location.href = "DraftPicker.html";
+      }
+      function openCoopDraftPicker() {
+        window.location.href = "CoopDraftPicker.html";
+      }
+    </script>
+  </body>
+</html>
