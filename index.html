@@ -95,16 +95,21 @@
         </button>
       </div>
       <div class="button-row">
-        <button>Coming Soon</button>
+        <button class="hsrCo-opDraft" onclick="openAcheronMarathon()">
+          <span class="button-text">HSR Co-op Draft Picker</span>
+        </button>
         <button>Coming Soon</button>
       </div>
     </div>
     <script>
       function openDraftPicker() {
-        window.location.href = "DraftPicker.html";
+        window.location.href = "https://www.mancarsua/DraftPicker";
       }
       function openCoopDraftPicker() {
-        window.location.href = "CoopDraftPicker.html";
+        window.location.href = "https://www.mancarsua/CoopDraftPicker";
+      }
+      function openAcheronMarathon() {
+        window.location.href = "https://www.mancarsua/AcheronMarathon";
       }
       kofiWidgetOverlay.draw("mancarsua", {
         type: "floating-chat",
