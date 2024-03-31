@@ -1,0 +1,71 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #3b1245;
+  color: #cad4ff;
+}
+
+h1 {
+  text-align: center;
+}
+
+.planets {
+  position: relative;
+  z-index: 9;
+  border: #16001c 2px solid;
+  background-color: #5d0874;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.planetsButton {
+  margin: 0px 5px;
+  font-size: 20px;
+  z-index: 10;
+}
+
+.division {
+  display: inline-flex;
+}
+
+.left {
+  background-color: #8e2caa;
+  width: 270px;
+  z-index: 10;
+  min-height: 850px;
+  display: inline-block;
+}
+
+.right {
+  width: 1640px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.test {
+  max-height: 850px;
+  width: auto;
+}
+
+.sectionButton {
+  width: 100%;
+  font-size: 16px;
+  background-color: #cad4ff;
+  padding: 4px;
+  border: solid #16001c 2px;
+}
+
+.sectionButton:hover {
+  background-color: #041d90;
+  color: #cad4ff;
+}
+
+.zoomable-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s;
+  width: 100%;
+}
